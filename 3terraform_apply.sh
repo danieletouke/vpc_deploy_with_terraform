@@ -18,4 +18,6 @@ MY_REGION=`yq '.aws_regions.region' $FILE`
 
 echo $MY_REGION
 
-terraform apply -var 'region_selector=$MY_REGION' --auto-approve
+AWS_REGION=$MY_REGION
+
+terraform apply --auto-approve
