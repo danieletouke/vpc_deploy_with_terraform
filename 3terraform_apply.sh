@@ -10,7 +10,7 @@ then
     echo "$DIR2 exists."
    
 else
-    AWS_ACCESS_KEY_ID=AKIAWG645TRDVOBNSQS3 AWS_SECRET_ACCESS_KEY=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 terraform init
+    terraform init
 fi
 
 FILE=my_file.yml
