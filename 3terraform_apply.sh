@@ -1,9 +1,11 @@
 #!/bin/bash
 
 #deploy the resources to terraform
-cd /var/lib/jenkins/workspace/terraform_deploy/jenkins_server/
+cd /var/lib/jenkins/workspace/vpc_deploy_terraform
+/vpc_deploy_with_terraform/
 
-DIR2=/var/lib/jenkins/workspace/terraform_deploy/jenkins_server/.terraform
+DIR2=/var/lib/jenkins/workspace/vpc_deploy_terraform
+/vpc_deploy_with_terraform/.terraform
 
 if [ -d "$DIR2" ];
 then

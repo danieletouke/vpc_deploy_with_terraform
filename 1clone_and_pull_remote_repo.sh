@@ -2,18 +2,18 @@
 
 #Clone my github repo
 
-PROJECT=jenkins_server
+PROJECT=vpc_deploy_with_terraform
 
 
 if [ -d "$PROJECT" ];
 then
     echo "$PROJECT exists."
 else
-    git clone https://github.com/danieletouke/jenkins_server.git
+    git clone https://github.com/danieletouke/vpc_deploy_with_terraform.git
 fi
 
 
-cd jenkins_server/
+cd vpc_deploy_with_terraform/
 
 if [ $?==0];
 then

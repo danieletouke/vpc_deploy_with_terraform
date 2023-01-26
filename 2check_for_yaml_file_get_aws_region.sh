@@ -8,7 +8,8 @@
 
 #check for a my_file.yml
 
-cd /var/lib/jenkins/workspace/terraform_deploy/jenkins_server/
+cd /var/lib/jenkins/workspace/vpc_deploy_terraform
+/vpc_deploy_with_terraform/
 
 FILE=my_file.yml
 
