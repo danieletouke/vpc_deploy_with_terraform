@@ -20,4 +20,6 @@ echo $MY_REGION
 
 AWS_REGION=$MY_REGION
 
+terraform plan
+
 terraform apply --auto-approve
